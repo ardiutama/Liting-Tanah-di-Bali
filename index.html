@@ -8,6 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<!--
+  DEFINITIVE FIX: The importmap below has been corrected.
+  Removed conflicting entries for React v19 from aistudiocdn.com
+  that were causing the blank screen error. The app now uses a single,
+  consistent source (esm.sh) for all libraries.
+-->
 <script type="importmap">
 {
   "imports": {
