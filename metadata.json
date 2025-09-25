@@ -1,0 +1,5 @@
+{
+  "name": "Tanah Bali",
+  "description": "A web application for listing land plots in Bali, powered by Supabase.",
+  "requestFramePermissions": []
+}
